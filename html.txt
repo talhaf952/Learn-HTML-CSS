@@ -2,6 +2,7 @@ Home
 Introduction
 Editor
 Basic
+========================================================================================
       <!DOCTYPE html>
       <html>
         <body>
@@ -9,8 +10,22 @@ Basic
           <p>My first paragraph.</p>
         </body>
       </html>
+
+      <a href="link">Detail </a>
+      <img src="link" alt="Alternate Name" width="" height="" >
+========================================================================================
 Elements
 Attributes
+========================================================================================
+* All HTML elements can have attributes
+* Attributes provide additional information about elements
+* Attributes are always specified in the start tag
+* Attributes usually come in name/value pairs like: name="value
+
+Two types of specify the URL in src attribute
+Absolute URL: Link to an external image hosted on another website.
+Relative URL: Link to an image that is hosted within the website.
+========================================================================================
 Headings
 Paragraphs
 Styles
