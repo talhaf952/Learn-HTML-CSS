@@ -82,6 +82,30 @@ Relative URL: Link to an image that is hosted within the website.
 	External - by using a <link> element to link to an external CSS file
 
 	The CSS margin property defines a margin (space) outside the border.
+	The CSS padding property defines a padding (space) between the text and the border.
+	
 ================================================================================================================================================================================
 => Links
+	The HTML <a> tag defines a hyperlink.
+	Syntax: <a href="url">link text</a>
+	The most important attribute of the <a> element is the href attribute, which indicates the link's destination.
+	An unvisited link is underlined and blue
+	A visited link is underlined and purple
+	An active link is underlined and red
+
+	The target attribute specifies where to open the linked document.
+	_self - Default. Opens the document in the same window/tab as it was clicked
+	_blank - Opens the document in a new window or tab
+	_parent - Opens the document in the parent frame
+	_top - Opens the document in the full body of the window
+
+	Link to an Email Address: Use mailto: inside the href attribute to create a link that opens the user's email program (to let them send a new email):
+	Use an Image as a Link: just put the <img> tag inside the <a> tag
+	
+	To use an HTML button as a link, you have to add some JavaScript code.
+
+	The title attribute specifies extra information about an element. The information is most often shown as a tooltip text when the mouse moves over the element.
+
+
+================================================================================================================================================================================
 => Images
