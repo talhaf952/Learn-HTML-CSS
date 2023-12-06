@@ -1,8 +1,8 @@
-Home
-Introduction
-Editor
-Basic
-========================================================================================
+=> Home
+=> Introduction
+=> Editor
+================================================================================================================================================================================
+=> Basic
       <!DOCTYPE html>
       <html>
         <body>
@@ -13,10 +13,10 @@ Basic
 
       <a href="link">Detail </a>
       <img src="link" alt="Alternate Name" width="" height="" >
-========================================================================================
-Elements
-Attributes
-========================================================================================
+================================================================================================================================================================================
+=> Elements
+================================================================================================================================================================================
+=> Attributes
 * All HTML elements can have attributes
 * Attributes provide additional information about elements
 * Attributes are always specified in the start tag
@@ -25,7 +25,52 @@ Attributes
 Two types of specify the URL in src attribute
 Absolute URL: Link to an external image hosted on another website.
 Relative URL: Link to an image that is hosted within the website.
-========================================================================================
-Headings
-Paragraphs
-Styles
+================================================================================================================================================================================
+=> Headings
+=> Paragraphs
+================================================================================================================================================================================
+=> Styles
+	The HTML style attribute is used to add styles to an element
+		color
+		font
+		text-align (style="text-align:center;")
+		font-family
+		font-size
+		style="border: 2px, solod tomato;"
+		background-color
+================================================================================================================================================================================
+=> Formating
+	<b> - Bold text
+	<strong> - Important text
+	<i> - Italic text
+	<em> - Emphasized text
+	<mark> - Marked text
+	<small> - Smaller text
+	<del> - Deleted text
+	<ins> - Inserted text
+	<sub> - Subscript text
+	<sup> - Superscript text
+================================================================================================================================================================================
+=> Quotations
+	<q> - Add Quotation Mark around
+	<blockquote> -  Defines a section that is quoted from another source.
+	<abbr> - Defines an abbreviation or an acronym
+	<address> - Defines the contact information for the author/owner of a document or an article.
+	<cite> - Defines the title of a creative work (e.g. a book, a poem, a song, a movie, a painting, a sculpture, etc.).
+	<bdo> - Bi-Directional Override, Used to override the current text direction
+================================================================================================================================================================================
+=> Comments
+================================================================================================================================================================================
+=> Colors
+	 RGB, HEX, HSL, RGBA, or HSLA values.
+	An RGBA color value is specified with:
+
+	rgba(red, green, blue, alpha)
+	The alpha parameter is a number between 0.0 (fully transparent) and 1.0 (not transparent at all):
+	Shades of gray are often defined using equal values for all three parameters:
+	HSL stands for hue, saturation, and lightness.
+	HSLA color values are an extension of HSL with an Alpha channel (opacity).  (0, 100%, 50%, 0.5)
+================================================================================================================================================================================
+=> CSS
+=> Links
+=> Images
