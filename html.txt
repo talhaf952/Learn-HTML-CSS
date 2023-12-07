@@ -151,3 +151,19 @@ Relative URL: Link to an image that is hosted within the website.
 	To use an image as a link, put the <img> tag inside the <a> tag:
 
 	Use the CSS float property to let the image float to the right or to the left of a text:
+
+	To add a background image on an HTML element, use the HTML style attribute and the CSS background-image property:
+	If the background image is smaller than the element, the image will repeat itself, horizontally and vertically, until it reaches the end of the element:
+	To avoid the background image from repeating itself, set the background-repeat property to no-repeat.
+
+	background-image: url('link');
+  	background-repeat: no-repeat;
+
+	If you want the background image to cover the entire element, you can set the background-size property to cover.
+	Also, to make sure the entire element is always covered, set the background-attachment property to fixed:
+
+	background-image: url('link');
+  	background-repeat: no-repeat;
+  	background-attachment: fixed;
+  	background-size: cover;
+	If you want the background image to stretch to fit the entire element, you can set the background-size property to 100% 100%:
