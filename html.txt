@@ -166,3 +166,6 @@ Relative URL: Link to an image that is hosted within the website.
 	background-image: url('link');
   	background-repeat: no-repeat;
   	background-attachment: fixed;
+
+  	background-size: cover;
+	If you want the background image to stretch to fit the entire element, you can set the background-size property to 100% 100%:
