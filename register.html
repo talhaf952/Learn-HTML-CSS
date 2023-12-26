@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="practice.css">
+</head>
+
+<body>
+    <div class="registration_box">
+        <h1>Register Here</h1>
+        <h4>It`s a free and only take a minute</h4>
+        <form class="myForm" method="post">
+            <div class="field-Section">
+                <label>First Name:</label>
+                <input class="textField" type="text" name="fname" id="name" placeholder="Enter Your First Name">
+            </div>
+
+            <div class="field-Section">
+                <label>Last Name</label>
+                <input type="text" name="lname" id="name" placeholder="Enter Your Last Name">
+            </div>
+
+            <div class="field-Section">
+                 <label>Your Age</label>
+                <input type="text" name="age" id="name" placeholder="How old are you?">
+            </div>
+
+            <div class="field-Section">
+                <label>Email</label>
+                <input type="email" name="email" id="name" placeholder="Enter your valid Email">
+            </div>
+           
+            <div style="display: flex;">
+                <label>Gender:</label>
+                &emsp;
+                <span id="male">Male</span>
+                <input type="radio" name="gender" id="male">
+                &emsp;
+                <span id="female">Female</span>
+                <input type="radio" name="gender" id="female">
+            </div><br>
+            <input type="button" value="submit">
+        </form>
+        <p>
+            By clicking the Sign Up Button, you agree to our <br> <a
+                href="https://www.theregister.com/Profile/terms_and_conditions_of_use/">Terms and Conditions</a> and <a
+                href="https://policies.google.com/privacy?hl=en-US">Privacy Policy</a>
+        </p>
+    </div><!--End register_box-->
+    <p class="para_2">
+        Already have an account? <a href="login.html">Login Here</a>
+    </p>
+</body>
+
+</html>
